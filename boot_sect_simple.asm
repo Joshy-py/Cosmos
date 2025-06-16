@@ -1,3 +1,6 @@
+BITS 16
+ORG 0x7C00
+
 ; Infinite loop (e9 fd ff)
 loop:
     lmp loop
